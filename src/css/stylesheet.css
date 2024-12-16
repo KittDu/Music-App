@@ -2,9 +2,11 @@ body {
   background-image: url("../image/_background-sea.png");
   background-size: 100%;
 }
+
 #formStyle {
   width: 75%;
 }
+
 header {
   border: 1px solid lightgray;
   border-radius: 25px;
@@ -14,11 +16,13 @@ header {
   text-align: center;
   font-size: 15px;
 }
+
 h1 {
   padding: 0;
   margin: 0px;
   color: #05445e;
 }
+
 h5 {
   margin: 0;
   padding: 0;
@@ -37,20 +41,25 @@ p {
   color: #287596;
   margin: 0;
 }
+
 .song-img {
-  padding: 0;
+  width: 95%;
+  margin: 5px;
   padding-top: 5px;
   border-radius: 10px;
 }
+
 .song-img:hover {
   cursor: pointer;
 }
+
 #songs {
-  margin: 0;
+  margin: 5%;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
+
 .card {
   margin: 1%;
   width: 30%;
@@ -58,27 +67,30 @@ p {
   transition-duration: 0.5s;
 }
 
-.card-title {
-  font-size: 20px;
-  margin: 0;
-}
-.card-text {
-  margin: 0;
+.cardTitle {
   font-size: 15px;
+  align-items: center;
+  margin: 0 5%;
+  color: #05445e;
 }
-.cardBody {
-  padding-bottom: 25%;
+
+.cardText {
+  margin:0 5%;
+  font-size: 15px;
+  color: #05445e;
 }
+
 .card:hover {
-  background-color: #041d28;
-  transform: scale(1.1, 1.1);
+ 
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
-  /* width: 31%;
-  height: 31%; */
-  /* box-shadow:5px 5px #043246 ;
-  transform: translate(2px,2px); */
 }
 
+.duration{
+  color: #05445e;
+  margin-right: 5%;
+}
 .newsletter {
   font-family: "Geologica, Times New Roman";
   font-size: 40px;
@@ -86,6 +98,7 @@ p {
   padding: 0;
   margin: 0;
 }
+
 h6 {
   font-family: "Geologica, Times New Roman";
   font-weight: 200;
@@ -95,26 +108,31 @@ h6 {
   margin: 0;
   margin-bottom: 10px;
 }
+
 h3 {
   padding: 0;
   margin: 0;
   color: rgb(47, 104, 123);
   font-size: small;
 }
+
 p {
   font-family: "Geologica, Times New Roman";
   font-size: smaller;
 }
+
 #footer {
   display: flex;
   /* center input and button != align-item */
   justify-content: center;
 }
+
 .newsletter-div {
   flex: 3;
   display: flex;
   flex-direction: column;
 }
+
 .request-artist {
   flex: 1;
   margin: 0 20px;
@@ -123,9 +141,11 @@ p {
   color: rgb(113, 112, 112);
   font-size: smaller;
 }
+
 .btn-sign-up {
   font-size: medium;
 }
+
 #newsletter-form {
   justify-content: center;
   display: flex;
@@ -139,14 +159,9 @@ p {
   font-size: 12px;
   margin-bottom: 10px;
 }
+
 #btn-submit {
   margin: 30px 0;
   background-color: #0f3a4d;
 }
-/* #add-song-container{
-  display: flex;
-}
-#add-song-container{
-  display: flex;
-  
-} */
+
