@@ -20,7 +20,7 @@
    ```bash
    git clone git@github.com:KittDu/Music_App.git
    cd project-root
-2. ** To open html in your browser**:
+2. **To open html in your browser**:
    ```bash
    open index.html
 3. **Install Dependencies (Optional)**:
