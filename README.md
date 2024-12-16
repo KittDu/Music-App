@@ -21,17 +21,20 @@
    git clone git@github.com:KittDu/Music_App.git
    cd project-root
 2. ** To open html in your browser
+   ```bash
    open index.html
 3. Install Dependencies (Optional)
+   ```bash
    npm install
 4. Start a local server
+   ```bash
    npx serve .
 
-Usage
-Select an Artist: Click on an artist's name in the menu to display their songs.
-Play a Song: Click the song's image to open the YouTube link and play the song.
-Request an Artist: Click the "Request Artist" button in the footer to suggest new artists.
-Subscribe to Newsletter: Sign up to receive the latest updates and music tips.
+## Usage
+**Select an Artist**: Click on an artist's name in the menu to display their songs.
+**Play a Song**: Click the song's image to open the YouTube link and play the song.
+**Request an Artist**: Click the "Request Artist" button in the footer to suggest new artists.
+**Subscribe to Newsletter**: Sign up to receive the latest updates and music tips.
 
 
-This is a Web222 Assignment at Seneca College.
+**This is a Web222 Assignment at Seneca College.**
