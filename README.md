@@ -24,11 +24,12 @@
    cd Music-App/src
 
 3. **To open html in your browser**:
-   **For Mac User**:
+
+- **For Mac User**:
    ```bash
    open index.html
-   
-   **For Window User**:
+
+- **For Window User**:
    ```bash
    start index.html
 4. **Install Dependencies (Optional)**:
