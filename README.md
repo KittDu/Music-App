@@ -20,15 +20,16 @@
    ```bash
    git clone https://github.com/KittDu/Music-App.git
 2. **Go to project-root**:
-  ```bash
+   ```bash
    cd Music-App/src
-2. **To open html in your browser**:
+
+3. **To open html in your browser**:
    ```bash
    open index.html
-3. **Install Dependencies (Optional)**:
+4. **Install Dependencies (Optional)**:
    ```bash
    npm install
-4. **Start a local server**:
+5. **Start a local server**:
    ```bash
    npx serve .
 
