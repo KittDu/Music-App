@@ -75,22 +75,23 @@ p {
 }
 
 .cardText {
-  margin:0 5%;
+  margin: 0 5%;
   font-size: 15px;
   color: #05445e;
 }
 
 .card:hover {
- 
+
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
 }
 
-.duration{
+.duration {
   color: #05445e;
   margin-right: 5%;
 }
+
 .newsletter {
   font-family: "Geologica, Times New Roman";
   font-size: 40px;
@@ -164,4 +165,3 @@ p {
   margin: 30px 0;
   background-color: #0f3a4d;
 }
-

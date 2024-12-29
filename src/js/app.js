@@ -16,6 +16,8 @@
 // All of our data is available on the global `window` object.
 // Create local constiables to work with it in this file.
 const { artists, songs } = window;
+console.log("Artists:", artists);
+console.log("Songs:", songs);
 
 const menu = document.querySelector("#menu");
 const selectedArtist = document.querySelector("#selected-artist");
@@ -62,9 +64,7 @@ function formatDuration(seconds) {
 function showSong(artistId) {
   songsTableBody.innerHTML = "";
 
-  const filteredSongs = songs.filter(
-    (song) => song.artistId === artistId && !song.isExplicit,
-  );
+  const filteredSongs = songs.filter((song) => song.artistId === artistId && !song.isExplicit);
 
   filteredSongs.forEach((song) => {
     const songCard = createSongCard(song);
@@ -149,10 +149,8 @@ function showArtist(artistId) {
   showSong(artistId);
 }
 
-document
-  .getElementById("request-artist")
-  .addEventListener("click", function () {
-    window.location.href = "./requestArtist.html";
-    document.getElementById;
-    console.log("sht");
-  });
+document.getElementById("request-artist").addEventListener("click", function () {
+  window.location.href = "./requestArtist.html";
+  document.getElementById;
+  console.log("sht");
+});
