@@ -18,8 +18,10 @@
 1. **Clone the Repository**:
 
    ```bash
-   git clone git@github.com:KittDu/Music_App.git
-   cd project-root
+   git clone https://github.com/KittDu/Music-App.git
+2. **Go to project-root**:
+  ```bash
+   cd Music-App/src
 2. **To open html in your browser**:
    ```bash
    open index.html
